@@ -6,7 +6,7 @@
     "test": "npm run lint && mocha",
     "lint": "node node_modules/eslint/bin/eslint.js ./src"
   },
-  "author": "aorgish, mikhama",
+  "author": "Nikita Snitko",
   "license": "MIT",
   "devDependencies": {
     "eslint": "^6.6.0",
@@ -16,6 +16,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/mikhama/core-js-101.git"
+    "url": "https://github.com/Snitkon/core-js-101"
   }
 }
