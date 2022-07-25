@@ -66,8 +66,8 @@ function getStringFromTemplate(firstName, lastName) {
  */
 function extractNameFromTemplate(value) {
   const a = value.replace('Hello, ', '');
-  const b = a.substring(0, a.length - 1);
-  return b;
+  const str = a.substring(0, a.length - 1);
+  return str;
 }
 
 /**
